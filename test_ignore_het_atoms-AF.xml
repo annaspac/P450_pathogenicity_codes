@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tunnels>
+  <Input>./tests/A0A331.cif</Input>
+  <WorkingDirectory>./test_ignore_het_atoms_AF/</WorkingDirectory>
+  <Params>
+    <Cavity ProbeRadius="5" InteriorThreshold="1.1" IgnoreHETAtoms="1" />
+    <Tunnel SurfaceCoverRadius="10" OriginRadius="5" BottleneckRadius="1.2" BottleneckTolerance="3" MaxTunnelSimilarity="0.7"/>
+  </Params>
+  <Export>
+    <Formats PyMol="1" CSV="1" PDBProfile="1" PDBStructure="1" JSON="1"/>
+    <Types Cavities="1" Tunnels="1" />
+    <PyMol  SurfaceType="Surface"/>
+  </Export>
+  <Origins Auto="0">
+	<Origin>
+<Query>Residues("HEM")</Query>
+      		<Query>Residues("ATP")</Query>
+    		<Query>Residues("AMP")</Query>
+      		<Query>Residues("GDP")</Query>
+      		<Query>Residues("0WD")</Query>
+      		<Query>Residues("CMP")</Query>
+      		<Query>Residues("UDP")</Query>
+      		<Query>Residues("FAD")</Query>
+      		<Query>Residues("ADP")</Query>
+      		<Query>Residues("COA")</Query>
+      		<Query>Residues("NAD")</Query>
+     		<Query>Residues("MH0")</Query>
+      		<Query>Residues("NAI")</Query>
+      		<Query>Residues("HEC")</Query>
+     		<Query>Residues("PLP")</Query>
+      		<Query>Residues("GSH")</Query>
+     		<Query>Residues("ANP")</Query>
+     		<Query>Residues("NAJ")</Query>
+      		<Query>Residues("NAP")</Query>
+      		<Query>Residues("COB")</Query>
+      		<Query>Residues("6FA")</Query>
+      		<Query>Residues("TTP")</Query>
+      		<Query>Residues("FMN")</Query>
+      		<Query>Residues("GTP")</Query>
+     		<Query>Residues("CTP")</Query>
+      		<Query>Residues("6HE")</Query>
+      		<Query>Residues("4LU")</Query>
+      		<Query>Residues("ACO")</Query>
+      		<Query>Residues("NDP")</Query>
+     		<Query>Residues("BTN")</Query>
+      		<Query>Residues("GTB")</Query>
+      		<Query>Residues("B12")</Query>
+      		<Query>Residues("GS8")</Query>
+      		<Query>Residues("CMC")</Query>
+      		<Query>Residues("CNC")</Query>
+      		<Query>Residues("3CD")</Query>
+     		<Query>Residues("HDD")</Query>
+     		<Query>Residues("GDS")</Query>
+      		<Query>Residues("PLR")</Query>
+      		<Query>Residues("CDP")</Query>
+      		<Query>Residues("UTP")</Query>
+      		<Query>Residues("GTX")</Query>
+      		<Query>Residues("RBF")</Query>
+     		<Query>Residues("HEA")</Query>
+      		<Query>Residues("PMP")</Query>
+      		<Query>Residues("FAO")</Query>
+      		<Query>Residues("GTS")</Query>
+     		<Query>Residues("HEB")</Query>
+      		<Query>Residues("CAA")</Query>
+      		<Query>Residues("FDA")</Query>
+      		<Query>Residues("FA8")</Query>
+      		<Query>Residues("TS5")</Query>
+      		<Query>Residues("MNR")</Query>
+      		<Query>Residues("FNR")</Query>
+      		<Query>Residues("DN4")</Query>
+     		<Query>Residues("BTI")</Query>
+     		<Query>Residues("PXP")</Query>
+      		<Query>Residues("MPL")</Query>
+	</Origin>
+  </Origins>
+</Tunnels>
