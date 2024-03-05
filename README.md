@@ -1,4 +1,2 @@
-Downloading MOLE at https://webchem.ncbr.muni.cz/Platform/App/Mole.
-Download protein structure cif files, get_cif.py.
-To compute tunnels with desktop MOLE use compute_tunnels_mole.py.
-Before computing tunnels, check test_ignore_het_atoms-AF.xml if fits every properties.
+
+Please download MOLE from https://webchem.ncbr.muni.cz/Platform/App/Mole. Obtain protein structure CIF files using get_cif.py. For computing tunnels with desktop MOLE, utilize compute_tunnels_mole.py. Prior to tunnel computation, ensure test_ignore_het_atoms-AF.xml fits all properties.
